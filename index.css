@@ -1,0 +1,709 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+   
+}
+
+
+.head{
+    background-color: black;
+    color:white;
+    margin-top: 60px;
+}
+.navigation {
+    background-color: rgb(54, 103, 105);
+    top: 0;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: left;
+    /* position: fixed; */
+}
+ #navbtn{
+    border: 0.5px solid transparent;
+    text-decoration: none;
+    margin: 1rem 0.1rem 1rem 7rem;
+    padding:4px;
+    border-radius: 8px;
+    
+    
+    
+}
+#navbtn:hover{
+    background-color: rgb(47, 36, 36);
+    color: aliceblue;
+    box-shadow: 0 0 15px 7px #8ba7b7;
+
+}
+#navbtn a{
+    color: aliceblue;
+}
+
+
+.homepagebody{
+    display: flex;
+    flex-direction: row;
+    margin-top: -3.5rem;
+    margin-left: 3rem;
+    padding: 10px;
+}
+.content{
+    margin-top: 2rem;
+
+}
+.content h1{
+    margin-top: 3px;
+    padding: 1rem;
+    line-height: 3rem;
+}
+.content p {
+    margin-top:40px;
+    line-break: auto    ;
+    line-height:1.5rem;
+}
+#navbtn a{
+    text-decoration: none;
+}
+.hirebtn a{
+    text-decoration: none;
+    border: 1px solid white;
+    margin-left: 25rem;
+    padding: 4px ;
+    color: aliceblue;
+    text-align:justify;
+    border-radius:4px ;
+     
+
+}
+#paragraph{
+    padding: 1rem;
+    line-height: 2rem;
+    margin-left: 1rem;
+}
+.hirebtn{
+    margin-top: 2rem;
+}
+.hirebtn a:hover{
+    border: 1px solid transparent;
+    background-color: rgb(206, 215, 223);
+    color: rgb(34, 7, 84);
+    box-shadow: 0 0 15px 7px #7b848b;
+}
+.section1{
+    text-align: center;
+    color:crimson;
+}
+.section2{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+.section2 p{
+    margin-left: 1rem;
+    margin-top: 2rem;
+    padding:1rem;
+    line-height: 1.5rem;
+}
+
+
+
+
+.aboutme{
+    padding: 2rem;
+    margin-top: 1rem;
+    background-color: rgb(228, 216, 202);
+}
+.cvbtn a{
+    text-decoration: none   ;
+    border:1px solid black;
+    margin-left: 25rem;
+    border-radius: 7px;
+    padding: 4px;
+
+}
+.cvbtn a:hover{
+    border: 1px solid transparent;
+    background-color: rgb(177, 204, 204);
+    color:rgb(105, 31, 46);
+    box-shadow: 0 0 15px 7px #62686c;
+
+}
+.contactsection{
+    padding: 2rem;
+    margin-top: 1rem;
+    background-color:rgb(243, 192, 243);
+
+}
+.contactheading{
+    text-align: center;
+    color:blue;
+}
+#contactsec1{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    margin: 1rem;
+}
+.mydetail{
+    border: 1px solid rgb(208, 246, 193);
+    background-color:rgb(208, 246, 193);
+    padding: 5rem 1rem 1rem 1rem;
+    margin-right: 4rem;
+    border-radius: 15px;
+    line-height: 1.5rem;
+
+}
+.mydetail:hover{
+    background-color:rgb(174, 231, 233);
+    color: black;
+    box-shadow: 0 0 15px 10px rgb(27, 25, 25);
+}
+#contactmeinfo{
+    border: 1px solid whitesmoke;
+    background-color: black;
+    color: aliceblue;
+    justify-content: space-between;
+    padding: 3rem;
+    margin-left: 2rem;
+    line-height: 2rem;
+    border-radius: 20px;
+    
+}
+#contactmeinfo:hover{
+    box-shadow: 0 0 15px 10px rgb(218, 247, 247);
+}
+#skillachive{
+    padding: 2rem;
+    margin-top: 1rem;
+    background-color:darkslategray;
+    display: flex;
+    flex-direction: row;
+}
+#Skills {
+    border: 1px solid white;
+    padding: 2rem;
+    margin: 1rem;
+    color: black;
+    background-color: rgb(160, 160, 100);
+    border-radius: 20px;
+    line-height: 2.5rem;
+
+
+}
+#Skills:hover{
+    border: 1px solid white;
+    background-color: rgb(166, 217, 188);
+    box-shadow: 0 0 15px 10px rgb(123, 142, 142);
+}
+#certificates{
+    border :1px solid whitesmoke;
+    padding: 3rem; 
+    margin-left: 0.5rem;
+    color:black ;
+    background-color:rgb(153, 161, 161);
+    border-radius: 20px;
+    line-height: 3.5rem;
+    font-size: 13px;
+}
+#certificates:hover{
+    
+    box-shadow: 0 0 15px 10px rgb(188, 193, 193);
+}
+#certificatebtn a{
+    text-decoration: none;
+    border: 1px solid transparent;
+    background-color:rgb(193, 188, 238);
+    padding: 5px;
+    margin-bottom: 20px;
+    color:darkslategray;
+    border-radius: 20px;
+
+}
+#certificatebtn a:hover{
+    box-shadow: 0 0 10px 7px rgb(42, 50, 50);
+
+}
+.socialsection{
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    background-color: black;
+    padding: 1rem;
+    margin-top: 1rem;
+
+}
+.social a{
+    text-decoration: none;
+    color: aliceblue;
+    line-height: 2rem;
+    
+
+}
+.social{
+    padding: 2rem;
+    border:1px solid white;
+    border-radius: 20px;
+}
+.social:hover{
+    box-shadow: 0 0 10px 5px white;
+}
+#backbtn a{
+    text-decoration: none;
+    color:blanchedalmond;
+    margin-left: 0.7rem;
+   
+    
+    
+}
+#backbtn{
+    padding: 3rem;
+    /* margin-left: 10px; */
+    line-height: 2rem;
+    border:1px solid white;
+    border-radius: 20px;
+    margin-left: 2rem;
+
+}
+#backbtn:hover{
+    box-shadow: 0 0 10px 5px white;
+}
+#moreabout{
+    border: 1px solid white;
+    padding: 1rem;
+    line-height: 2rem;
+    border-radius: 20px;
+    margin-left: 2rem;
+
+}
+#moreabout:hover{
+    box-shadow: 0 0 10px 5px white;
+}
+#moreabout a{
+    text-decoration: none;
+    border: 1px solid white;
+    color:black;
+    background-color: rgb(205, 128, 241);
+    padding: 4px;
+    margin-left: 9rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+
+}
+#moreabout a:hover{
+    background-color: black;
+    color:red;
+    box-shadow: 0 0 6px 4px white;
+
+
+}
+.Contactbtn{
+    background-color: rgb(181, 234, 236);
+    border: 1px solid black;
+    border-radius: 17px;
+    color:black;
+}
+.Contactbtn:hover{
+    box-shadow: 0 0 6px 4px white;
+}
+#submitbtn{
+    background-color: azure;
+    color: black;
+    border:1px solid black;
+    border-radius: 3px;
+}
+#submitbtn:hover{
+    border: 1px solid white;
+    background-color: black;
+    color: whitesmoke;
+    box-shadow: 0 0 6px 4px white;
+
+}
+.profileimg
+{
+    border:1px solid transparents;
+    border-radius: 2rem;
+    margin-top: 20px;
+    width: 13rem; height: 13rem;
+    margin-left: 18rem;
+}
+.profileimg:hover{
+    border:1px solid black;
+    box-shadow: 0px 0px 10px 6px white;
+    transition: 1s;
+}
+.socialsectiondirection{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+
+    
+}
+.profilephoto{
+    width: 3rem;
+      height: 3rem;
+      margin-top: 5px;
+      margin-right: 7px;
+      border: 1px solid white;
+      border-radius: 30px;
+}
+#homecontent{
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+#name{
+    color: blueviolet
+}
+#aboutimage{
+    height: 10rem; width: 10rem;
+}
+#footerlogo{
+    width: 20px;
+    color: blueviolet; text-align: center;
+}
+.footernavbar h5{
+    color:rgb(89, 224, 245); margin-left: 6rem;
+}
+.footersection {
+    background-color: rgb(10, 10, 60);
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+#footernavbar a{
+    
+    margin-right: 1rem;
+    border: 1px solid transparent;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 5rem;
+
+}
+#footernavbar a:hover{
+    color: rgb(195, 48, 161);
+}
+#footernavbar{
+    margin-right: 3rem;
+}
+.footersocial{
+    margin-left: 23rem;
+    padding: 3px;
+}
+#socialimage{
+    margin: 0.6rem;
+}
+
+
+@media screen and (max-width: 600px)
+{
+    .navigation {
+        background-color: rgb(21 21 86);
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        line-height: 0px;
+    }
+   #logo{
+    margin-left: 8.5rem;
+   }
+   #mdhomepage{
+    margin-top: -4rem;
+   }
+   #myprofileimage{
+    width:8rem;
+    height: 8rem;
+    margin-top: 4rem;
+   }
+  .mdheading{
+    font-size: 1.5rem;
+    margin-left: 0;
+  }
+  #homecontent{
+    margin-top: 1.5rem;
+  }
+  .homepagebody {
+    
+    margin-top: 2rem;
+    margin-left: 0rem;
+    padding: 20px;
+}
+.content {
+    margin-top: 1rem;
+}
+.content h1 {
+    margin-top: 3rem;
+    padding: 10px;
+    line-height: 3rem;
+}
+.profileimg {
+    border: 1px solid transparents;
+    border-radius: 2rem;
+    margin-top: 20px;
+    width: 13rem;
+    height: 13rem;
+    margin-left: 0px;
+}
+#homecontent {
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+}
+.hirebtn a {
+    text-decoration: none;
+    border: 1px solid white;
+    margin-left: 25rem;
+    padding: 4px;
+    color: aliceblue;
+    text-align: justify;
+    border-radius: 4px;
+    margin-left: 8.5rem;
+}
+.aboutme {
+    padding: 0rem;
+    margin-top: 1rem;
+    background-color: rgb(228, 216, 202);
+}
+.section2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem;
+}
+#aboutimage {
+    height: 8rem;
+    width: 8rem;
+    margin-left: 7rem;
+    margin-top: 10px;
+}
+.section2 p {
+    margin-left: 8px;
+    margin-top: 0;
+    padding: 10px;
+    line-height: 1.5rem;
+}
+.cvbtn a {
+    text-decoration: none;
+    border: 1px solid black;
+    margin-left: 8rem;
+    border-radius: 7px;
+    padding: 4px;
+}
+#contactsec1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem;
+    margin: 0rm;
+}
+.mydetail {
+    border: 1px solid rgb(208, 246, 193);
+    background-color: rgb(208, 246, 193);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 0px;
+    margin-right: 0rem;
+    border-radius: 15px;
+    line-height: 1.5rem;
+}
+#heading{
+    color: rgb(207, 35, 64);
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+#contactmeinfo {
+    border: 1px solid whitesmoke;
+    background-color: black;
+    color: aliceblue;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-left: 0px;
+    line-height: 2rem;
+    border-radius: 20px;
+    margin-top: 2rem;
+}
+.Contactbtn {
+    background-color: rgb(181, 234, 236);
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+}
+#skillachive {
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: darkslategray;
+    display: flex;
+    flex-direction: column;
+}
+#Skills {
+    border: 1px solid white;
+    padding: 1rem;
+    margin: 0.5;
+    color: black;
+    background-color: rgb(160, 160, 100);
+    border-radius: 20px;
+    line-height: 2.5rem;
+}
+.h3, h3 {
+    font-size: 17px;
+}
+#certificates {
+    border: 1px solid whitesmoke;
+    padding-left: 1.5rem;
+    margin-left: 0.5rem;
+    color: black;
+    background-color: rgb(153, 161, 161);
+    border-radius: 20px;
+    line-height: 3.5rem;
+    font-size: 13px;
+    margin-bottom: auto;
+    margin-top: 1.5rem;
+}
+.socialsection {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    background-color: black;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+#moreabout {
+    border: 1px solid white;
+    padding: 1rem;
+    line-height: 1rem;
+    border-radius: 20px;
+    margin-left: 1rem;
+
+}
+#navbtn {
+    border: 0.5px solid transparent;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
+#footerfont{
+    font-size: 10px;
+}
+
+#backbtn {
+    padding: 1rem;
+    /* margin-left: 10px; */
+    line-height: 1rem;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+h5{
+    margin-left: 7rem; color: rgb(234, 224, 32);
+}
+#footernavbar a {
+    margin-right: 1rem;
+    border: 1px solid transparent;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 0px;
+}
+.footersection {
+    background-color: rgb(10, 10, 60);
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20rem;
+    
+}
+.footersocial {
+    margin-left: 1rem;
+    padding: 3px;
+}
+#iiii{
+    margin-bottom: 20rem;
+    line-height: 10rem;
+}
+.footersocial {
+    margin-left: 4rem;
+    padding: 3px;
+}
+#footernavbar a{
+    
+    margin-right: 1rem;
+    border: 1px solid transparent;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 5rem;
+
+
+}
+#mdhomepage {
+    margin-top: -3.5rem;
+}
+}
+/* media queiry end */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.wrapper {
+    display: flex;
+    margin-top: -2rem;
+    margin-left: 2rem;
+}
+
+.wrapper .static-txt {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 5rem;
+    margin-top: 1.5rem;
+}
+
+.wrapper .dynamic-txts {
+    margin-left: 15px;
+    line-height: 90px;
+    height: 90px;
+    overflow: hidden;
+}
+
+.dynamic-txts li {
+    list-style: none;
+    color: #ff4c29;
+    font-size: 25px;
+    font-weight: 500;
+    top: 0;
+    position: relative;
+    animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -360px;
+    }
+}
+
+.dynamic-txts li {
+    position: relative;
+}
+
+.dynamic-txts li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #082032;
+    border-left: 2px solid #ff4c29;
+    animation: typing 3s steps(10) infinite;
+}
+
+@keyframes typing {
+    40%,
+    60% {
+        left: calc(100% + 60px);
+    }
+    100% {
+        left: 0;
+    }
+}
